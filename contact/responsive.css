@@ -1,0 +1,120 @@
+:root {
+    --main--bg: #1d1d42;
+    --second--bg: #4e2ecf;
+    --ukiran: #6fcf97;
+    --deactive: rgb(218, 218, 218);
+  }
+
+  @media screen and (min-width: 992px) {
+    
+  }
+
+
+/* tablet start */
+@media screen and (max-width : 991px) and (min-width: 768px) {
+
+
+    /* navbar start */
+    #navbarNavAltMarkup{
+        background-color: #29315d;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-radius: 0 0 20px 20px;
+      }
+  
+      .button-order {
+         color: white;
+        background-color: var(--ukiran);
+     
+      }
+
+    /* navbar end */
+    .colaborate-left p {
+        font-size: 24px;
+        top: 45%;
+        left: 23%;
+    }
+
+    .colaborate-left img {
+        transform: translate(0%, 90%);
+        height: 36%;
+        width: auto;
+        z-index: -1;
+    }
+
+}
+
+/* tablet end */
+
+@media screen and (max-width : 767px) {
+
+    /* navbar start */
+    #navbarNavAltMarkup{
+        background-color: #29315d;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-radius: 0 0 15px 15px;
+      }
+      .button-order {
+         color: white;
+        background-color: var(--ukiran);
+     
+      }
+
+    /* navbar end */
+
+    .colaborate-left {
+        display: none;
+    }
+
+    .colaborate-right form {
+        width: 85%;
+        border: 2px solid white;
+        background-image: url(../images/lanang\ colaborate3.png);
+        background-size: 290px;
+        background-position-x: 110%;
+        background-position-y: 320%;
+        background-repeat: no-repeat;
+        background-color: #4e2ecf;
+    }
+
+
+    .button-custom {
+     
+    }
+
+    .wa {
+        background-color: var(--main--bg);
+       
+    }
+}
+
+
+/* hp start */
+@media screen and (max-width : 445px) {
+
+     .colaborate-right form {
+        height: 500px;
+        width: 90%;
+        border: 2px solid white;
+        background-image: url(../images/lanang\ colaborate3.png);
+        background-size: 250px;
+        background-position-x: 110%;
+        background-position-y: 120%;
+        background-repeat: no-repeat;
+        background-color: #4e2ecf;
+    }
+
+    .form-label {
+        margin-top: 5px;
+    }
+
+    .button-custom {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.074);
+    }
+
+    .wa {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.074);
+    }
+}
+/* hp end */

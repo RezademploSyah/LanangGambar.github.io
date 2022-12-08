@@ -1,0 +1,40 @@
+
+.img-colaborate {
+    width: 200px;
+}
+
+.img-profile {
+    width: 70%;
+    height: 60%;
+    margin: 10px;
+}
+
+.container-img {
+    display: flex;
+    justify-content: flex-end;
+    height: 200px;
+}
+
+.container-description {
+    height: 200px;
+}
+
+@media screen and (max-width : 767px) { 
+
+
+
+    .img-colaborate {
+        width: 130px;
+        height: auto;
+    }
+
+    .img-profile {
+        width: 100px;
+        height: auto;
+      
+    }
+
+    .col-md-2 {
+       
+    }
+}
